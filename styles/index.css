@@ -136,6 +136,8 @@ ul {
     display: flex;
     justify-content: center;
     padding: 40px;
+    font-size: 18px;
+    color: #c9cdd2;
 }
 
 .header-hero,
