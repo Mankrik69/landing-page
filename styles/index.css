@@ -17,7 +17,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #c9cdd2;
 }
 
 .header,
@@ -45,7 +45,6 @@ ul {
 
 .hero {
     display: flex;
-    gap: 100px;
 }
 
 .information {
@@ -110,10 +109,33 @@ ul {
 
 .sign-up-section {
     display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 125px;
+    margin: 100px 200px;
+    border-radius: 8px;
+}
+
+.sign-up-section-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700; 
+}
+
+.sign-up-section-description {
+    color: #c9cdd2;
+    font-size: 18px;
+}
+
+.sign-up-section button {
+    border: 3px solid #f9faf8;
 }
 
 .footer {
     display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 .header-hero,
@@ -136,7 +158,8 @@ ul {
 
 .hero-description {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #c9cdd2;
+    width: 450px;
 }
 
 .hero-right {
@@ -163,10 +186,13 @@ button {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+}
+
+.hero-left button {
+    margin-top: 10px;
 }
