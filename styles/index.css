@@ -16,6 +16,18 @@ a {
     color: #c9cdd2;
 }
 
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
 .header,
 ul {
     display: flex;
@@ -34,16 +46,60 @@ ul {
     padding-right: 250px;
 }
 
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
 }
 
+
 .hero {
     display: flex;
     padding-bottom: 150px;
 }
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #c9cdd2;
+    width: 450px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-left button {
+    margin-top: 10px;
+}
+
+.hero-right {
+    display: flex;
+    flex-shrink: 0;
+    width: 520px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747d;
+}
+
+.image-placeholder {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 
 .information {
     display: flex;
@@ -82,6 +138,7 @@ ul {
 
 }
 
+
 .quote {
     display: flex;
     flex-direction: column;
@@ -104,6 +161,7 @@ ul {
     align-self: flex-end;
     margin-right: 40px;
 }
+
 
 .sign-up-section {
     display: flex;
@@ -136,57 +194,4 @@ ul {
     padding: 40px;
     font-size: 18px;
     color: #c9cdd2;
-}
-
-.header,
-.hero,
-.footer {
-    background-color: #1f2937;
-}
-
-.hero-title {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-
-.hero-description {
-    font-size: 18px;
-    color: #c9cdd2;
-    width: 450px;
-}
-
-.hero-right {
-    display: flex;
-    flex-shrink: 0;
-    width: 520px;
-    height: 240px;
-    justify-content: center;
-    align-items: center;
-    background-color: #6d747d;
-}
-
-.image-placeholder {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-button {
-    background-color: #3882f6;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 32px;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.hero-left {
-    display: flex;
-    flex-direction: column;
-}
-
-.hero-left button {
-    margin-top: 10px;
 }
