@@ -25,6 +25,7 @@ ul {
 .header {
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .header,
@@ -41,6 +42,7 @@ ul {
 
 .hero {
     display: flex;
+    padding-bottom: 150px;
 }
 
 .information {
@@ -116,7 +118,7 @@ ul {
 .sign-up-section-title {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .sign-up-section-description {
@@ -136,16 +138,10 @@ ul {
     color: #c9cdd2;
 }
 
-.header-hero,
+.header,
+.hero,
 .footer {
     background-color: #1f2937;
-}
-
-.header-hero {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding-bottom: 150px;
 }
 
 .hero-title {
