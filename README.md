@@ -10,4 +10,6 @@ Recreate landing page using template below:
 
 ![](template/01.png)
 
+---
+
 ![](template/02.png)
